@@ -1,31 +1,71 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<!doctype html>
+<html lang="en" prefix="op: http://media.facebook.com/op#">
   <head>
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-    <!--meta-->
-    <title>IA - Test Site</title>
-    <meta name="description" content="IA Test Site - NLSN Measurement">
-
-    <!--FB-->
-    <meta property="fb:pages" content="209679152718652" />
-
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/ia.css">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:700italic' rel='stylesheet' type='text/css'>
-
+    <meta charset="utf-8">
+    <!-- URL of the web version of this article -->
+    <!-- TODO: Change the domain to match the domain of your website -->    
+    <link rel="canonical" href="http://example.com/article.html">
+    <meta property="op:markup_version" content="v1.0">
   </head>
-
   <body>
+    <article>
+      <header>
+        <!-- The title and subtitle shown in your Instant Article -->
+        <h1>Article Title</h1>
+        <h2>Article Subtitle</h2>
 
-<figure class="op-tracker">
-    <iframe>
+        <!-- The date and time when your article was originally published -->
+        <time class="op-published" datetime="2014-11-11T04:44:16Z">November 11th, 4:44 PM</time>
+
+        <!-- The date and time when your article was last updated -->
+        <time class="op-modified" dateTime="2014-12-11T04:44:16Z">December 11th, 4:44 PM</time>
+
+        <!-- The authors of your article -->
+        <address>
+          <a rel="facebook" href="http://facebook.com/brandon.diamond">Brandon Diamond</a>
+          Brandon is a avid zombie hunter.
+        </address>
+        <address>
+          <a>TR Vishwanath</a>
+          Vish is a scholar and a gentleman.
+        </address>
+
+        <!-- The cover image shown inside your article --> 
+        <!-- TODO: Change the URL to a live image from your website -->    
+        <figure>
+          <img src="http://mydomain.com/path/to/img.jpg" />
+          <figcaption>This image is amazing</figcaption>
+        </figure>   
+
+        <!-- A kicker for your article --> 
+        <h3 class="op-kicker">
+          This is a kicker
+        </h3>        
+
+      </header>
+
+      <!-- Article body goes here -->
+
+      <!-- Body text for your article -->
+      <p> Article content </p> 
+
+      <!-- A video within your article -->
+      <!-- TODO: Change the URL to a live video from your website -->    
+      <figure>
+        <video>
+          <source src="http://mydomain.com/path/to/video.mp4" type="video/mp4" />
+        </video>
+      </figure>
+
+      <!-- An ad within your article -->
+      <!-- TODO: Change the URL to a live ad from your website -->    
+      <figure class="op-ad">
+        <iframe src="https://www.adserver.com/ss;adtype=banner320x50" height="60" width="320"></iframe>
+      </figure>
+
+      <!-- Analytics code for your article -->
+      <figure class="op-tracker">
+          <iframe src="" hidden>    
           <script type="text/javascript" src="http://secure-dcr-cert.imrworldwide.com/novms/js/2/ggcmb500.js"></script>
           <script type="text/JavaScript">
           var _nolggGlobalParams = {sfcode : "dcr-cert",apid : "TB522A2EE-6093-4878-95D7-77AAC346FCE1", apn : "test-static"};
@@ -39,21 +79,16 @@
           segB:"",
           segC:""};
           gg1.ggPM("staticstart",staticmeta);
-          </script>
-    </iframe>
-</figure>
+          </script></iframe>
+      </figure>
 
-  
-  <div class="container">
-    <header class="masthead">
-      <h1 class="masthead-title">NLSN - IA TEST</h1>
-    </header>
+      <footer>
+        <!-- Credits for your article -->
+        <aside>Acknowledgements</aside>
 
-    <p>Lorem Khaled Ipsum is a major key to success. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. The key to more success is to have a lot of pillows. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Find peace, life is like a water fall, you’ve gotta flow. They don’t want us to win. They never said winning was easy. Some people can’t handle success, I can. </p>
-
-    <p>Give thanks to the most high. Stay focused. Bless up. It’s on you how you want to live your life. Everyone has a choice. I pick my choice, squeaky clean. Lion! Stay focused. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed.</p>
-
-  </div>
-
+        <!-- Copyright details for your article -->
+        <small>Legal notes</small>
+      </footer>
+    </article>
   </body>
 </html>
